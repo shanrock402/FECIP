@@ -17,11 +17,18 @@
             </div>
             <form action="" method="post">
                 <div class="inputs">
+                    <img id="usericon" src="assets/usercadastro.png" width="100px">
                     <input type="text" name="Usuário" placeholder="nome de usuário" required>
                     <input type="email" name="E-mail" placeholder="seu@email.com" required>
                     <input type="password" name="Senha" placeholder="senha" required>
                     <input type="password" name="CSenha" placeholder="confirmar senha" required>
-                    <button type="submit" name="Cadastrar">Avançar</button>
+                    <div class="btnladoalado">
+                        
+                        <input id="turma" type="number" min="0" max="99999" name="turma" placeholder="turma" required>
+                        <input id="escola" type="text" name="escola" placeholder="escola" required>
+
+                    </div>   
+                    <button type="submit" name="Avançar">Avançar</button>
                 </div>
             </form>
         </div>
